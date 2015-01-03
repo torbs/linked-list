@@ -1,0 +1,25 @@
+{
+  "name": "amedia-linked-list",
+  "version": "0.0.1",
+  "description": "Double linked list data type",
+  "main": "linked-list.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --ui bdd"
+  },
+  "keywords": [
+    "data type",
+    "linked list"
+  ],
+  "author": "Tor Brekke Skjøtskift",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amedia/javascript-modules.git"
+  }
+}

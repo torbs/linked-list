@@ -1,11 +1,7 @@
 /*jshint node:true,browser:true*/
 'use strict';
 
-function Node(value, previous, next) {
-    this.value = value;
-    this.next = next || null;
-    this.previous = previous || null;
-}
+var Node = require('./node');
 
 function LinkedList(arr) {
     this.head = new Node(undefined, null, null);

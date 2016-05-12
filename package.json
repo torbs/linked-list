@@ -1,5 +1,5 @@
 {
-  "name": "amedia-linked-list",
+  "name": "mmd-linked-list",
   "version": "0.0.1",
   "description": "Double linked list data type",
   "main": "linked-list.js",
@@ -20,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:amedia/javascript-modules.git"
+    "url": "git@github.com:torbs/linked-list.git"
   }
 }
